@@ -16,8 +16,8 @@ RUN \
   apt-get install -y build-essential && \
   apt-get install -y software-properties-common && \
   apt-get install -y curl git htop unzip nano && \
-  apt-get install -y ruby
-  apt-get install -y libssl-dev
+  apt-get install -y ruby python
+  apt-get install -y python-pip libssl-dev
 
 # Install Bundler
 RUN gem install bundle --no-ri --no-rdoc
